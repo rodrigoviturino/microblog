@@ -9,13 +9,14 @@
 
         &__logo {
             text-align: center;
-            
+
             a {
                 text-decoration: none;
                 text-transform: uppercase;
                 color: #fff;
+                font-weight: 700;
                 letter-spacing: 1.4px;
-                @include type-1(18);
+                @include type-6(24);
             }
         }
 
@@ -23,6 +24,22 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
+            input {
+                border: none;
+                padding: 8px;
+                border: solid 1px darkslateblue;
+                background-color:transparent;
+            }
+            button {
+                color: #fff;
+                background-color: transparent;
+                border: none;
+                padding: 9px;
+                background-color: darkslateblue;
+                display: block;
+                @include type-5(16);
+            }
         }
 
         &__menu {
@@ -37,7 +54,7 @@
 
                     a {
                         padding: 10px 20px;
-                        background-color: #777;                
+                        background-color: darkslateblue;                
                         display: block;
                         text-decoration: none;
                         color: #fff;

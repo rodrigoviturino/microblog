@@ -775,14 +775,31 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
+  font-weight: 700;
   letter-spacing: 1.4px;
-  font-family: "Raleway", sans-serif;
-  font-size: 1.125em;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5em;
 }
 .header__wrapper__search {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.header__wrapper__search input {
+  border: none;
+  padding: 8px;
+  border: solid 1px darkslateblue;
+  background-color: transparent;
+}
+.header__wrapper__search button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  padding: 9px;
+  background-color: darkslateblue;
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 1em;
 }
 .header__wrapper__menu__wrapper {
   display: flex;
@@ -794,7 +811,7 @@ img {
 }
 .header__wrapper__menu__wrapper__item a {
   padding: 10px 20px;
-  background-color: #777;
+  background-color: darkslateblue;
   display: block;
   text-decoration: none;
   color: #fff;
