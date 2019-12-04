@@ -1,0 +1,82 @@
+/* STYLE GERAL */
+
+body {
+    height: 2000px;
+    position: relative;
+    @include type-1(18px);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.ativo {
+    display: none !important;
+    transition: all 0.7s;
+}
+
+.modal_ativo {
+    display: block;
+}
+/* END STYLE GERAL */
+
+#tipo1 {
+    font-weight: 800;
+   @include type-1(80);
+   
+}
+
+#tipo2 {
+    font-weight: 800;
+    @include type-2(80);
+    
+}
+#tipo3 {
+    font-weight: 800;
+    @include type-3(80);
+    
+}
+#tipo4 {
+    font-weight: 800;
+    @include type-4(80);
+    
+}
+#tipo5 {
+    font-weight: 800;
+    @include type-5(80);
+    
+}
+
+.ativarMenu {
+    left: 0px !important;
+    z-index: 11;
+    background-color: #E9204F;
+    transition: all 0.7s;
+    width: 100% !important;
+
+    i {
+        transform: rotate(175deg);
+        transition: all 2.5s;
+        color: #4a4a4e;
+    }
+
+}
+
+.js-tabcontent section{
+    display: none;
+}
+
+.js-tabcontent section.activeContent {
+    display: block;
+    animation: show .5s forwards;
+}
+
+.headerMenuFixed {
+    position: fixed;
+    width: 100%;
+    padding: 13px 0;
+    z-index: 11;
+    background-color: #3a3a3a;
+}
+
