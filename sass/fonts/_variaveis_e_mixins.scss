@@ -26,7 +26,7 @@ $bg-default-title-primary: #fff;
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700&display=swap');
 
 $font-1: 'Raleway', sans-serif;
 $font-2: 'Poppins', sans-serif;
@@ -275,6 +275,9 @@ $font-7: 'Roboto Condensed', sans-serif;
     }
     @else if $size==16 {
         font-size: em(16);
+    }
+    @else if $size==17 {
+        font-size: em(17);
     }
     @else if $size==18 {
         font-size: em(18);

@@ -84,9 +84,30 @@
         .wrapper {
             
             .info {
+                margin-top: 15px;
+                margin-bottom: 10px;
+                @include type-7(17);
 
                 .title-post {
+                    color: #4a4a4a;
+                    font-weight: 700;
+                }
 
+                .separator {
+                    color: #4a4a4a;
+                    display: inline-block;
+                    margin: 0 5px;
+                    width: 18px;
+                    height: 1px;
+                    position: relative;
+                    top: -4px;
+                    background-color: #5f5f60;
+                    font-weight: 700;
+                }
+
+                .date {
+                    font-style: italic;
+                    font-weight: 500;
                 }
             }
 

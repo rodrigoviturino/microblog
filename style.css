@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700&display=swap");
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -1147,6 +1147,31 @@ img {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1em;
 }
+.cards-posts__item .wrapper .info {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.0625em;
+}
+.cards-posts__item .wrapper .info .title-post {
+  color: #4a4a4a;
+  font-weight: 700;
+}
+.cards-posts__item .wrapper .info .separator {
+  color: #4a4a4a;
+  display: inline-block;
+  margin: 0 5px;
+  width: 18px;
+  height: 1px;
+  position: relative;
+  top: -4px;
+  background-color: #5f5f60;
+  font-weight: 700;
+}
+.cards-posts__item .wrapper .info .date {
+  font-style: italic;
+  font-weight: 500;
+}
 .cards-posts__item .wrapper .text {
   color: #272B2F;
   margin-bottom: 10px;
@@ -1161,6 +1186,7 @@ img {
   border: solid 1px #272B2F;
   color: #272B2F;
   font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.0625em;
 }
 
 /* end Cards Posts */
