@@ -1204,8 +1204,57 @@ img {
 
 /* end Cards Posts */
 .footer {
-  background-color: #7E7E80;
+  background-color: #2D2D33;
   padding: 12px 0;
+}
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+}
+.footer__wrapper__logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5em;
+}
+.footer__wrapper__logo p {
+  margin-top: 5px;
+  text-align: center;
+  color: #fff;
+  font-family: "Dosis", sans-serif;
+  font-size: 1em;
+}
+.footer__wrapper__copy {
+  display: flex;
+  justify-content: center;
+}
+.footer__wrapper__copy p {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.875em;
+}
+.footer__wrapper__page {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer__wrapper__page ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style: none;
+}
+.footer__wrapper__page ul li {
+  display: flex;
+}
+.footer__wrapper__page ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1em;
 }
 
 #btn-banner {
