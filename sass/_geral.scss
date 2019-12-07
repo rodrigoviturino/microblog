@@ -3,7 +3,6 @@
 body {
     height: 2000px;
     position: relative;
-    @include type-1(18px);
 }
 
 img {
@@ -20,33 +19,6 @@ img {
     display: block;
 }
 /* END STYLE GERAL */
-
-#tipo1 {
-    font-weight: 800;
-   @include type-1(80);
-   
-}
-
-#tipo2 {
-    font-weight: 800;
-    @include type-2(80);
-    
-}
-#tipo3 {
-    font-weight: 800;
-    @include type-3(80);
-    
-}
-#tipo4 {
-    font-weight: 800;
-    @include type-4(80);
-    
-}
-#tipo5 {
-    font-weight: 800;
-    @include type-5(80);
-    
-}
 
 .ativarMenu {
     left: 0px !important;

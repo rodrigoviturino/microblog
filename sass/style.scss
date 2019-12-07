@@ -1,14 +1,14 @@
 // Gerais
-@import 'grid';
+@import 'grid/grid';
 @import 'normalize/_import-now';
-@import 'reset';
-@import 'variaveis_e_mixins';
+@import 'base/reset';
+@import 'fonts/variaveis_e_mixins';
 @import 'geral';
 
 // Partls
-@import "header";
-@import "intro";   
-@import "parts/home";   
+@import "page/header";
+@import "page/intro";   
+@import "page/home";   
 
 // Base
 @import "base/keyframes";

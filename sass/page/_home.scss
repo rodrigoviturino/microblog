@@ -1,0 +1,113 @@
+/* Banner Home */
+.banner-home {
+    background-image: url('./assets/img/banner-home.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+    width: 100%;
+    display: flex;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+
+
+        &__block-title {
+            text-align: right;
+            align-items: flex-end;
+            max-width: 560px;
+
+            .title {
+                font-weight: 300;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+                text-align: right;
+                line-height:1.2;
+                color: #272B2F;
+                @include type-7(50);
+            }
+
+            .text {
+                text-align: right;
+                line-height: 30px;
+                margin-bottom: 18px;
+                color: #5f5f60;
+                @include type-7(16);
+            }
+
+            .btn {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 700;
+                border: solid 2px #757575;
+                padding: 13px 25px;
+                color: #818181;
+                display: inline-block;
+                @include type-7(16);
+
+                &:hover {
+                    border: solid 2px #4a4a4a;
+                    background-color: rgba(197, 197, 197, 0.192);
+                }
+            }
+        }
+    }
+}
+/* end Banner Home */
+
+/* Cards Posts */
+.cards-posts {
+    padding: 100px 0;
+
+    .block-title {
+        text-align: center;
+        
+        h2 {
+            color: #272B2F;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            @include type-7(30);
+        }
+
+        p {
+            color:#5f5f60;
+            @include type-7(16);
+        }
+    }
+
+    /* Item */
+    &__item {
+
+        .wrapper {
+            
+            .info {
+
+                .title-post {
+
+                }
+            }
+
+            .text {
+                color: #272B2F;
+                margin-bottom: 10px;
+                font-weight: 600;
+                line-height: 1.3;
+                @include type-7(18);
+            }
+
+            button {
+                padding: 5px 12px;
+                background-color: transparent;
+                border: solid 1px #272B2F;
+                color: #272B2F;
+                @include type-7(17);
+            }
+        }
+    }
+    /* end Item */
+
+}
+/* end Cards Posts */
