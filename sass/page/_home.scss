@@ -84,60 +84,80 @@
     /* Item */
     &__item {
         padding: 80px 0;
+        transition: all 0.7s;
 
-        .wrapper {
-            
-            .info {
-                margin-top: 15px;
-                margin-bottom: 10px;
-                @include type-7(17);
+        article {
 
-                .title-post {
-                    color: #4a4a4a;
-                    font-weight: 700;
-                }
+            figure {
 
-                .separator {
-                    color: #4a4a4a;
-                    display: inline-block;
-                    margin: 0 5px;
-                    width: 18px;
-                    height: 1px;
-                    position: relative;
-                    top: -4px;
-                    background-color: #5f5f60;
-                    font-weight: 700;
-                }
-
-                .date {
-                    font-style: italic;
-                    font-weight: 500;
-                }
-            }
-
-            .text {
-                color: #272B2F;
-                margin-bottom: 10px;
-                font-weight: 600;
-                line-height: 1.3;
-                @include type-7(18);
-            }
-
-            button {
-                padding: 5px 12px;
-                background-color: transparent;
-                border: solid 1px #272B2F;
-                color: #272B2F;
-                cursor: pointer;
-                transition: all 0.7s;
-                @include type-7(17);
-
-                &:hover {
+                img {
                     transition: all 0.7s;
-                    color: #444;
-                    background-color: #adadad62;
+                    &:hover {
+                        transition: all 0.7s;
+                        opacity: 0.8;
+                    }
                 }
             }
+                    
+                
+
+            /* Info Post */
+            .wrapper {
+                
+                .info {
+                    margin-top: 15px;
+                    margin-bottom: 10px;
+                    @include type-7(17);
+
+                    .title-post {
+                        color: #4a4a4a;
+                        font-weight: 700;
+                    }
+
+                    .separator {
+                        color: #4a4a4a;
+                        display: inline-block;
+                        margin: 0 5px;
+                        width: 18px;
+                        height: 1px;
+                        position: relative;
+                        top: -4px;
+                        background-color: #5f5f60;
+                        font-weight: 700;
+                    }
+
+                    .date {
+                        font-style: italic;
+                        font-weight: 500;
+                    }
+                }
+
+                .text {
+                    color: #272B2F;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+                    line-height: 1.3;
+                    @include type-7(18);
+                }
+
+                button {
+                    padding: 5px 12px;
+                    background-color: transparent;
+                    border: solid 1px #272B2F;
+                    color: #272B2F;
+                    cursor: pointer;
+                    transition: all 0.7s;
+                    @include type-7(17);
+
+                    &:hover {
+                        transition: all 0.7s;
+                        color: #444;
+                        background-color: #adadad62;
+                    }
+                }
+            }
+            /* end Info Post */
+            
         }
     }
     /* end Item */
