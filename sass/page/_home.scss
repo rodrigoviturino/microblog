@@ -46,11 +46,14 @@
                 padding: 13px 25px;
                 color: #818181;
                 display: inline-block;
+                transition: all 0.4s;
                 @include type-7(16);
 
                 &:hover {
+                    transition: all 0.5s;
                     border: solid 2px #4a4a4a;
                     background-color: rgba(197, 197, 197, 0.192);
+                    padding: 13px 20px;
                 }
             }
         }

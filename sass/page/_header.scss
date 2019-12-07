@@ -28,16 +28,17 @@
             input {
                 border: none;
                 padding: 8px;
-                border: solid 1px darkslateblue;
-                background-color:transparent;
+                border: solid 1px #7E7E80;
+                background-color:#fff;
             }
             button {
                 color: #fff;
                 background-color: transparent;
                 border: none;
                 padding: 9px;
-                background-color: darkslateblue;
+                background-color: #7E7E80;
                 display: block;
+                letter-spacing: 1.3px;
                 @include type-5(16);
             }
         }
@@ -54,10 +55,10 @@
 
                     a {
                         padding: 10px 20px;
-                        background-color: darkslateblue;                
+                        background-color: #fff;                
                         display: block;
                         text-decoration: none;
-                        color: #fff;
+                        color: #000000;
                         @include type-5(18);
                     }
                 }

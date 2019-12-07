@@ -196,6 +196,9 @@ $font-7: 'Roboto Condensed', sans-serif;
     @else if $size==16 {
         font-size: em(16);
     }
+    @else if $size==17 {
+        font-size: em(17);
+    }
     @else if $size==18 {
         font-size: em(18);
     }
@@ -272,6 +275,9 @@ $font-7: 'Roboto Condensed', sans-serif;
     }
     @else if $size==14 {
         font-size: em(14);
+    }
+    @else if $size==15 {
+        font-size: em(15);
     }
     @else if $size==16 {
         font-size: em(16);
