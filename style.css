@@ -1323,6 +1323,7 @@ img {
   align-items: center;
   justify-content: center;
   flex: 2;
+  flex-direction: column;
 }
 .login__column-left .logo {
   text-decoration: none;
@@ -1338,6 +1339,21 @@ img {
   transition: all 0.7s;
   opacity: 0.7;
   color: #a3a3a3;
+}
+.login__column-left .page-initial {
+  cursor: pointer;
+  margin-top: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: all 0.7s;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1em;
+}
+.login__column-left .page-initial:hover {
+  transition: all 0.7s;
+  text-decoration: underline;
 }
 .login__column-right {
   padding: 250px 100px 0;

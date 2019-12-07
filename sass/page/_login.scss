@@ -13,6 +13,7 @@
         align-items: center;
         justify-content: center;
         flex: 2;
+        flex-direction: column;
 
         .logo {
             text-decoration: none;
@@ -29,6 +30,22 @@
                 color: rgb(163, 163, 163);
             }
 
+        }
+
+        .page-initial {
+            cursor: pointer;
+            margin-top: 20px;
+            color: #fff;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            text-decoration: none;
+            transition: all 0.7s;
+            @include type-7(16);
+
+            &:hover {
+                transition: all 0.7s;
+                text-decoration: underline;
+            }
         }
     }
 
