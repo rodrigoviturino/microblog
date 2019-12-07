@@ -1147,6 +1147,9 @@ img {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1em;
 }
+.cards-posts__item {
+  padding: 80px 0;
+}
 .cards-posts__item .wrapper .info {
   margin-top: 15px;
   margin-bottom: 10px;
@@ -1185,8 +1188,15 @@ img {
   background-color: transparent;
   border: solid 1px #272B2F;
   color: #272B2F;
+  cursor: pointer;
+  transition: all 0.7s;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.0625em;
+}
+.cards-posts__item .wrapper button:hover {
+  transition: all 0.7s;
+  color: #444;
+  background-color: #adadad62;
 }
 
 /* end Cards Posts */
