@@ -1542,6 +1542,9 @@ img {
   width: 50px;
   height: 1px;
 }
+.main-admin__wrapper__content .insert-posts {
+  margin-bottom: 20px;
+}
 .main-admin__wrapper__content .insert-posts .btn-insert-posts {
   display: inline-block;
   padding: 10px 20px;
