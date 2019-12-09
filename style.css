@@ -1149,6 +1149,69 @@ img {
 }
 
 /* end Banner Home */
+/* Banner Interno */
+.banner-interno {
+  background-image: url("./assets/img/banner-interno.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(25%);
+  height: 300px;
+  width: 100%;
+  display: flex;
+}
+.banner-interno__block-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner-interno__block-title h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3.125em;
+}
+.banner-interno__block-title p {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.25em;
+}
+
+/* end Banner Interno */
+/* Page Internal */
+.page-internal__block-title {
+  margin: 40px 0;
+}
+.page-internal__block-title h2 {
+  color: #222;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: "Dosis", sans-serif;
+  font-size: 2.5em;
+}
+.page-internal__block-title h3 {
+  text-align: left;
+  color: #222;
+  font-weight: 500;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.875em;
+}
+.page-internal p {
+  color: #4a4a4a;
+  line-height: 25px;
+  margin: 5px 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.125em;
+}
+
+/* end Page Internal */
 /* Cards Posts */
 .cards-posts {
   padding: 100px 0;
@@ -1238,6 +1301,7 @@ img {
 .footer {
   background-color: #2D2D33;
   padding: 12px 0;
+  margin-top: 40px;
 }
 .footer__wrapper {
   display: flex;

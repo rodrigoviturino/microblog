@@ -61,6 +61,74 @@
 }
 /* end Banner Home */
 
+/* Banner Interno */
+.banner-interno {
+    background-image: url('./assets/img/banner-interno.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(25%);
+    height: 300px;
+    width: 100%;
+    display: flex;
+
+    &__block-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h2 {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 4px 4px rgb(0, 0, 0);
+            @include type-7(50);
+        }
+
+        p {
+            color: #fff;
+            text-align: center;
+            font-weight: 300;
+            text-shadow: 1px 1px 2px black; 
+            @include type-7(20);
+        }
+
+    }
+}
+/* end Banner Interno */
+
+
+/* Page Internal */
+.page-internal {
+
+    &__block-title {
+        margin: 40px 0;
+        h2 {
+            color: #222;
+            font-weight: 600;
+            text-align: left;
+            margin-bottom: 20px;
+            @include type-6(40);
+        }
+
+        h3 {
+            text-align: left;
+            color: #222;
+            font-weight: 500;
+            @include type-6(30);
+        }
+    }
+
+    p {
+        color: #4a4a4a;
+        line-height: 25px;
+        margin: 5px 0;
+        @include type-5(18);
+    }
+}
+/* end Page Internal */
+
 /* Cards Posts */
 .cards-posts {
     padding: 100px 0;
