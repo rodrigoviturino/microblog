@@ -1572,7 +1572,7 @@ img {
   border: solid 1px #183fac;
 }
 .main-admin__wrapper__content-posts .form-add-post {
-  background-color: #235BF7;
+  background-color: #0e349ea6;
   color: #fff;
   padding: 20px;
   margin: 0 auto;
@@ -1591,7 +1591,7 @@ img {
   transition: all 0.7s;
 }
 .main-admin__wrapper__content-posts .form-add-post__header .btn-close:hover {
-  color: #AB8118;
+  color: #4209DE;
   transition: all 0.7s;
   transform: rotate(80deg);
 }
@@ -1615,7 +1615,7 @@ img {
   width: 100%;
 }
 .main-admin__wrapper__content-posts .form-add-post__form .btn-insert {
-  background-color: #1112C2;
+  background-color: #143691;
   color: #fff;
   cursor: pointer;
   display: inline-block;
