@@ -139,9 +139,17 @@
                     background-color: rgb(24, 63, 172);
                     font-weight: 400;
                     color: #fff;
+                    border: solid 1px rgb(24, 63, 172);
                     text-decoration: none;
                     text-transform: capitalize;
+                    transition: all 0.7s;
                     @include type-7(16);
+                    &:hover {
+                        transition: all 0.7s;
+                        background-color: transparent;
+                        color: rgb(24, 63, 172);
+                        border: solid 1px rgb(24, 63, 172);
+                    }
                 }
             }
             /* end Button Insert Posts */

@@ -1551,10 +1551,18 @@ img {
   background-color: #183fac;
   font-weight: 400;
   color: #fff;
+  border: solid 1px #183fac;
   text-decoration: none;
   text-transform: capitalize;
+  transition: all 0.7s;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1em;
+}
+.main-admin__wrapper__content-posts .insert-posts .btn-insert-posts:hover {
+  transition: all 0.7s;
+  background-color: transparent;
+  color: #183fac;
+  border: solid 1px #183fac;
 }
 .main-admin__wrapper__content-posts .table-posts {
   width: 100%;
