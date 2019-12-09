@@ -1512,7 +1512,7 @@ img {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.125em;
 }
-.main-admin__wrapper__content {
+.main-admin__wrapper__content-posts {
   padding: 20px;
   width: 100%;
   margin: 30px 30px 30px 230px;
@@ -1524,17 +1524,17 @@ img {
   /* Table Posts */
   /* end Table Posts */
 }
-.main-admin__wrapper__content .block-title {
+.main-admin__wrapper__content-posts .block-title {
   padding: 40px 0;
 }
-.main-admin__wrapper__content .block-title h2 {
+.main-admin__wrapper__content-posts .block-title h2 {
   text-align: center;
   color: #333;
   font-weight: 400;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 2.5em;
 }
-.main-admin__wrapper__content .block-title h2::after {
+.main-admin__wrapper__content-posts .block-title h2::after {
   content: "";
   display: block;
   background-color: #333;
@@ -1542,10 +1542,10 @@ img {
   width: 50px;
   height: 1px;
 }
-.main-admin__wrapper__content .insert-posts {
+.main-admin__wrapper__content-posts .insert-posts {
   margin-bottom: 20px;
 }
-.main-admin__wrapper__content .insert-posts .btn-insert-posts {
+.main-admin__wrapper__content-posts .insert-posts .btn-insert-posts {
   display: inline-block;
   padding: 10px 20px;
   background-color: #183fac;
@@ -1556,13 +1556,13 @@ img {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1em;
 }
-.main-admin__wrapper__content .table-posts {
+.main-admin__wrapper__content-posts .table-posts {
   width: 100%;
 }
-.main-admin__wrapper__content .table-posts thead tr {
+.main-admin__wrapper__content-posts .table-posts thead tr {
   text-align: center;
 }
-.main-admin__wrapper__content .table-posts thead tr th {
+.main-admin__wrapper__content-posts .table-posts thead tr th {
   background-color: #777;
   color: #fff;
   font-weight: 400;
@@ -1571,7 +1571,8 @@ img {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.25em;
 }
-.main-admin__wrapper__content .table-posts tbody tr td {
+.main-admin__wrapper__content-posts .table-posts tbody tr td {
+  padding: 10px;
   text-align: center;
   width: 100%;
   font-weight: 300;
@@ -1580,11 +1581,12 @@ img {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.125em;
 }
-.main-admin__wrapper__content .table-posts tbody tr td .btn-update {
+.main-admin__wrapper__content-posts .table-posts tbody tr td .btn-update {
   display: table-cell;
-  border-right: solid 0px rgba(34, 34, 34, 0.404);
   color: #fff;
+  width: 100%;
   text-decoration: none;
+  border: solid 1px #2caa36;
   padding: 10px 20px;
   background-color: #2caa36;
   transition: all 0.7s;
@@ -1592,27 +1594,28 @@ img {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1em;
 }
-.main-admin__wrapper__content .table-posts tbody tr td .btn-update:hover {
+.main-admin__wrapper__content-posts .table-posts tbody tr td .btn-update:hover {
   transition: all 0.7s;
   background-color: transparent;
   color: #2caa36;
-  border: solid 0px #2caa36;
+  border: solid 1px #2caa36;
 }
-.main-admin__wrapper__content .table-posts tbody tr td .btn-delete {
+.main-admin__wrapper__content-posts .table-posts tbody tr td .btn-delete {
   display: table-cell;
   font-weight: 400;
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
+  border: solid 1px #d12c2c;
   background-color: #d12c2c;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1em;
 }
-.main-admin__wrapper__content .table-posts tbody tr td .btn-delete:hover {
+.main-admin__wrapper__content-posts .table-posts tbody tr td .btn-delete:hover {
   transition: all 0.7s;
   background-color: transparent;
   color: #d12c2c;
-  border: solid 0px #d12c2c;
+  border: solid 1px #d12c2c;
 }
 
 /* end Side Panel */

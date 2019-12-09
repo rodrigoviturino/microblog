@@ -101,7 +101,7 @@
             }
         }
 
-        &__content {
+        &__content-posts {
             padding: 20px;
             width: 100%;
             margin: 30px 30px 30px 230px;
@@ -170,6 +170,7 @@
                     tr {
 
                         td {
+                            padding: 10px;
                             text-align: center;
                             width: 100%;
                             font-weight: 300;
@@ -179,9 +180,10 @@
 
                             .btn-update {
                                 display: table-cell;
-                                border-right: solid 0px rgba(34, 34, 34, 0.404);
                                 color: #fff;
+                                width: 100%;
                                 text-decoration: none;
+                                border: solid 1px rgb(44, 170, 54);
                                 padding: 10px 20px;
                                 background-color: rgb(44, 170, 54);
                                 transition: all 0.7s;
@@ -192,7 +194,7 @@
                                     transition: all 0.7s;
                                     background-color: transparent;
                                     color: rgb(44, 170, 54);
-                                    border: solid 0px rgb(44, 170, 54);
+                                    border: solid 1px rgb(44, 170, 54);
                                 }
                             }
 
@@ -202,13 +204,14 @@
                                 color: #fff;
                                 text-decoration: none;
                                 padding: 10px 20px;
+                                border: solid 1px rgb(209, 44, 44);
                                 background-color:rgb(209, 44, 44);
                                 @include type-7(16);
                                 &:hover {
                                     transition: all 0.7s;
                                     background-color: transparent;
                                     color: rgb(209, 44, 44);
-                                    border: solid 0px rgb(209, 44, 44);
+                                    border: solid 1px rgb(209, 44, 44);
                                 }
                             }
                         }
