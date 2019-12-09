@@ -69,9 +69,10 @@
         display: flex;
 
         &__panel {
-            position: fixed;
+            position: absolute;
+            padding: 20px 15px 20px 10px;
             width: 200px;
-            height: 100vh;
+            min-height: 1500px;
             background-color:#808080e1;
 
             ul {
@@ -100,6 +101,8 @@
                 }
             }
         }
+
+        /* Conteudo Posts */
 
         &__content-posts {
             padding: 20px;
@@ -152,6 +155,83 @@
                     }
                 }
             }
+
+            /* Formulario Add Post */
+            .form-add-post {
+                background-color: #235BF7;
+                color: #fff;
+                padding: 20px;
+                margin: 0 auto;
+                text-align: center;
+                max-width: 100%;
+                position: relative;
+                margin-bottom: 60px;
+                display: none;
+
+                &__header {
+                    position: absolute;
+                    right: 20px;
+                    .btn-close {
+                        cursor: pointer;
+                        transition: all 0.7s;
+
+                        &:hover {
+                            color: #AB8118;
+                            transition: all 0.7s;
+                            transform: rotate(80deg);
+                        }
+                    }
+                }
+
+                &__form {
+                    max-width: 600px;
+                    margin: 0 auto;
+                    text-align: left;
+
+                    label {
+                        display: block;
+                        margin-bottom: 5px;
+                        letter-spacing: 1px;
+                        font-weight: 400;
+                        @include type-7(18);
+                    }
+
+                    input {
+                        width: 100%;
+                    }
+
+                    textarea {
+                        width: 100%;
+                    }
+
+                    .btn-insert {
+                        background-color: #1112C2;
+                        color: #fff;
+                        cursor: pointer;
+                        display: inline-block;
+                        padding: 10px 20px;
+                        border: solid 1px #183FAB;
+                        transition: all 0.7s;
+                        font-weight: 500;
+                        @include type-7(18);
+
+                        &:hover {
+                            transition: all 0.7s;
+                            background-color: rgba(17, 17, 194, 0.198);
+                            color: #fff;
+                            font-weight: 400;
+                            border: solid 1px #fff;
+                        }
+                    }
+                }
+
+                .mb-1 {
+                    margin-bottom: 15px;
+                }
+
+            }
+            /* end Formulario Add Post */
+
             /* end Button Insert Posts */
 
 
@@ -229,6 +309,12 @@
             /* end Table Posts */
         }
 
+    }
+
+    /* */
+    .active-modal-form-add {
+        transition: all 0.7s;
+        display: block !important;
     }
 }
 /* end Side Panel */ 
