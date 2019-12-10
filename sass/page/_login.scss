@@ -46,6 +46,13 @@
                 transition: all 0.7s;
                 text-decoration: underline;
             }
+
+            i {
+                position: relative;
+                -webkit-animation: mymove 2s infinite; /* Safari 4.0 - 8.0 */
+                animation: mymove 1.5s infinite;
+                text-shadow: 1px 1px 4px #b9f072;
+            }
         }
     }
 

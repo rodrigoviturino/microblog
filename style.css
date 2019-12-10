@@ -727,6 +727,23 @@ img {
   background-color: #3a3a3a;
 }
 
+@-webkit-keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 3px;
+  }
+}
+/* Standard syntax */
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 3px;
+  }
+}
 .header {
   width: 100%;
   background-color: #2D2D33;
@@ -1419,6 +1436,13 @@ img {
   transition: all 0.7s;
   text-decoration: underline;
 }
+.login__column-left .page-initial i {
+  position: relative;
+  -webkit-animation: mymove 2s infinite;
+  /* Safari 4.0 - 8.0 */
+  animation: mymove 1.5s infinite;
+  text-shadow: 1px 1px 4px #b9f072;
+}
 .login__column-right {
   padding: 250px 100px 0;
   display: flex;
@@ -1545,17 +1569,17 @@ img {
 /* end Header Admin */
 /* Side Panel */
 .main-admin {
-  /* */
+  /* Atalhos */
 }
 .main-admin__wrapper {
   display: flex;
   /* Conteudo Posts */
 }
 .main-admin__wrapper__panel {
-  position: absolute;
-  padding: 20px 15px 20px 10px;
-  width: 200px;
-  min-height: 1500px;
+  position: relative;
+  padding: 20px 25px;
+  width: 270px;
+  min-height: 100vh;
   background-color: #808080e1;
 }
 .main-admin__wrapper__panel ul {
@@ -1584,7 +1608,7 @@ img {
 .main-admin__wrapper__content-posts {
   padding: 20px;
   width: 100%;
-  margin: 30px 30px 30px 230px;
+  margin: 30px;
   background-color: #f2f2f2;
   /* Title */
   /* end Title */
@@ -1779,6 +1803,9 @@ img {
 .main-admin .active-modal-form-add {
   transition: all 0.7s;
   display: block !important;
+}
+.main-admin .my-1 {
+  margin-top: 15px;
 }
 
 /* end Side Panel */

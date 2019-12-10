@@ -69,10 +69,10 @@
         display: flex;
 
         &__panel {
-            position: absolute;
-            padding: 20px 15px 20px 10px;
-            width: 200px;
-            min-height: 1500px;
+            position: relative;
+            padding: 20px 25px;
+            width: 270px;
+            min-height: 100vh;
             background-color:#808080e1;
 
             ul {
@@ -107,7 +107,7 @@
         &__content-posts {
             padding: 20px;
             width: 100%;
-            margin: 30px 30px 30px 230px;
+            margin: 30px;
             background-color: #f2f2f2;
 
             /* Title */
@@ -327,10 +327,14 @@
 
     }
 
-    /* */
+    /* Atalhos */
     .active-modal-form-add {
         transition: all 0.7s;
         display: block !important;
+    }
+
+    .my-1 {
+        margin-top: 15px;
     }
 }
 /* end Side Panel */ 
