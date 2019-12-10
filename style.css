@@ -1606,7 +1606,7 @@ img {
   letter-spacing: 1.2px;
   padding-left: 10px;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 1.125em;
+  font-size: 1.5em;
 }
 .main-admin__wrapper__content-posts {
   padding: 20px;
@@ -1863,6 +1863,10 @@ img {
 }
 .main-admin .my-1 {
   margin-top: 15px;
+}
+.main-admin .activeMenuPanel {
+  color: #56e7ab;
+  border-bottom: dashed 1px #56e7ab;
 }
 
 /* end Side Panel */

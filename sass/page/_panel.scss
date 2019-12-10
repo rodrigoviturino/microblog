@@ -96,7 +96,7 @@
                         font-weight: 400;
                         letter-spacing: 1.2px;
                         padding-left: 10px;
-                        @include type-7(18);
+                        @include type-7(24);
                     }
                 }
             }
@@ -401,6 +401,11 @@
 
     .my-1 {
         margin-top: 15px;
+    }
+
+    .activeMenuPanel {
+        color: #56e7ab;
+        border-bottom: dashed 1px #56e7ab;
     }
 }
 /* end Side Panel */ 
