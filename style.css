@@ -1574,6 +1574,9 @@ img {
 .main-admin__wrapper {
   display: flex;
   /* Conteudo Posts */
+  /* end Conteudo Posts */
+  /* Conteudo Dashboard */
+  /* end Conteudo Dashboard */
 }
 .main-admin__wrapper__panel {
   position: relative;
@@ -1799,6 +1802,60 @@ img {
   background-color: transparent;
   color: #d12c2c;
   border: solid 1px #d12c2c;
+}
+.main-admin__wrapper__content-main {
+  padding: 20px;
+  width: 100%;
+  margin: 30px;
+  background-color: #f2f2f2;
+  /* Title Principal */
+  /* end Title Principal*/
+  /* */
+  /**/
+}
+.main-admin__wrapper__content-main .block-title .title {
+  text-align: center;
+  color: #222;
+  text-transform: capitalize;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.875em;
+}
+.main-admin__wrapper__content-main .block-title .text {
+  color: #222;
+  line-height: 23px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.125em;
+}
+.main-admin__wrapper__content-main ul {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-admin__wrapper__content-main ul li {
+  list-style: none;
+}
+.main-admin__wrapper__content-main ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #222;
+  transition: all 0.7s;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.125em;
+}
+.main-admin__wrapper__content-main ul li a:hover {
+  transition: all 0.7s;
+  color: #999999;
+}
+.main-admin__wrapper__content-main ul li a:hover i {
+  transition: all 0.6s;
+  color: #56e7ab;
+}
+.main-admin__wrapper__content-main ul li a i {
+  transition: all 0.6s;
+  margin-right: 8px;
+  color: #183FAB;
 }
 .main-admin .active-modal-form-add {
   transition: all 0.7s;
