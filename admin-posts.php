@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/db192ad007.js" crossorigin="anonymous"></script>
-    <title>Admin Usuários - Micro Blog</title>
-</head>
-<body>
-
-<header class="header-admin">
-    <div class="container header-admin__wrapper">
-        <div class="grid-5 header-admin__wrapper__logo">
-            <a href="admin.html">
-                Admin - Microblog
-            </a>
-        </div>
-
-        <div class="grid-7 header-admin__wrapper__menu">
-            <ul>
-                <li>
-                    <a href="#">Rodrigo Viturino</a>
-                    <img src="./assets/img/profile.jpg" alt="" class="user-img">
-                </li>
-
-                <li>
-                    <a href="#">Sair</a>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</header>
+<?php include_once "./include/header_admin.php"; ?>
 
 <!-- Side Panel -->
 <main class="main-admin">
@@ -44,12 +10,12 @@
                 <li>
                     <i class="far fa-copy fa-2x">
                     </i>
-                    <a href="admin-posts.html">Posts</a>
+                    <a href="admin-posts.php" class="activeMenuPanel">Posts</a>
                 </li>
                 <li>
                     <i class="far fa-user fa-2x">
                     </i>
-                    <a href="admin-user.html" class="activeMenuPanel">Usuario</a>
+                    <a href="admin-user.php">Usuario</a>
                 </li>
             </ul>
         </aside>
@@ -63,61 +29,66 @@
 
             <!-- Title Main -->
             <div class="block-title">
-                <h2>Gerenciamento de Usuários</h2>
+                <h2>Gerenciamento de Posts</h2>
             </div>
             <!-- end Title Main -->
+            
 
             <!-- Button Insert Posts -->
-            <div class="insert-posts">
-                <a href="#" class="btn-insert-posts">Inserir Novo Usuários</a>
+            <div class="insert-posts my-1">
+                <a href="#" class="btn-insert-posts">Inserir Novo Posts</a>
             </div>
 
-            <!-- Insert New User -->
             <section class="form-add-post form-add-js">
                 <div class="form-add-post__header btn-close-js">
                     <i class="btn-close  fas fa-times-circle fa-2x"></i>
                 </div>
-                <h2 class="title">Inserir Usuário</h2>
+                <h2 class="title">Inserir Post</h2>
 
                 <form action="#" class="form-add-post__form">
                     <div class="mb-1">
-                        <label for="nome">Nome:</label>
-                        <input type="text" name="nome">
+                        <label for="titulo">Titulo:</label>
+                        <input type="text" name="titulo">
                     </div>
                     <div class="mb-1">
-                        <label for="email">E-mail:</label>
-                        <input type="text" name="email">
+                        <label for="titulo">Texto:</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>
                     <div class="mb-1">
-                        <label for="senha">Senha:</label>
-                        <input type="text">
+                        <label for="titulo">Resumo:</label>
+                        <textarea name="" id="" cols="10" rows="5"></textarea>
                     </div>
-                    <button name="inserir" class="btn-insert">Inserir Usuário</button>
+                    <div class="mb-1">
+                        <label for="imagem">Selecionar uma imagem para este post:</label>
+                        <input type="file" name="imagem" id="imagem">
+                    </div>
+                    <button name="inserir" class="btn-insert">Inserir Post</button>
                 </form>
 
             </section>
-            <!-- end Insert New User -->
-
             <!-- end Button Insert Posts -->
-            
+
             <!-- Table Posts -->
             <table class="table-posts">
 
                 <thead>
                     <tr>
-                        <th>Nome</th>
-                        <th>E-mail</th>
+                        <th>ID</th>
+                        <th>Titulo</th>
+                        <th>Data</th>
                         <th colspan="2">Ações</th>
                     </tr>
                 </thead>
 
                 <tbody>
+                    
                     <!-- Row Info Table -->
                     <tr>
-                        <td>Rodrigo Viturino</td>
-                        <td>viturino_souza@outlook.com</td>
+                        <td>1</td>
+                        <td>React</td>
+                        <td>09/12/2019</td>
                         <td>
-                            <a href="#" class="btn-update">Atualizar</a>
+                            <a href="#" class="btn-update">Editar</a>
                         </td>
                         <td>
                             <a href="#" class="btn-delete">Excluir</a>
@@ -127,10 +98,11 @@
 
                     <!-- Row Info Table -->
                     <tr>
-                        <td>joao Vitor</td>
-                        <td>joao@outlook.com</td>
+                        <td>2</td>
+                        <td>Angular</td>
+                        <td>10/12/2019</td>
                         <td>
-                            <a href="#" class="btn-update">Atualizar</a>
+                            <a href="#" class="btn-update">Editar</a>
                         </td>
                         <td>
                             <a href="#" class="btn-delete">Excluir</a>
@@ -140,16 +112,18 @@
 
                     <!-- Row Info Table -->
                     <tr>
-                        <td>Lorem Ipsum</td>
-                        <td>teste@teste.com</td>
+                        <td>3</td>
+                        <td>Vue.js</td>
+                        <td>11/12/2019</td>
                         <td>
-                            <a href="#" class="btn-update">Atualizar</a>
+                            <a href="#" class="btn-update">Editar</a>
                         </td>
                         <td>
                             <a href="#" class="btn-delete">Excluir</a>
                         </td>
                     </tr>
                     <!-- end Row Info Table -->
+
                 </tbody>
 
             </table>
