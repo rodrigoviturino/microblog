@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -21,12 +23,12 @@
         <div class="grid-7 header-admin__wrapper__menu">
             <ul>
                 <li>
-                    <a href="#">Rodrigo Viturino</a>
+                    <a href="#">Usuario</a>
                     <img src="./assets/img/profile.jpg" alt="" class="user-img">
                 </li>
 
                 <li>
-                    <a href="#">Sair</a>
+                    <a href="sair.php">Sair</a>
                 </li>
             </ul>
         </div>

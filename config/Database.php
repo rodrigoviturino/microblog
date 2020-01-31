@@ -19,26 +19,20 @@ class Database {
         }
     }
 
-    public function adicionar( $email, $nome = '', $senha) {
-
-        if($this->existeEmail($email) ) {
-   
-            $sql = " INSERT INTO contatos ( nome, email, senha ) VALUES ( :nome, :email, :senha ) ";
-            $sql = $this->pdo->prepare($sql);
-            $sql->bindValue(':nome', $nome);
-            $sql->bindValue(':email', $email);
-            $sql->bindValue(':senha', $senha);
-            $sql->execute();
-
-            
-        } 
-
+    public function adicionar( $nome, $email,$senha) {
+        
+        $sql = " INSERT INTO usuarios ( nome, email, senha ) VALUES ( :nome, :email, :senha ) ";
+        $sql = $this->pdo->prepare($sql);
+        $sql->bindValue(':nome', $nome);
+        $sql->bindValue(':email', $email);
+        $sql->bindValue(':senha', $senha);
+        $sql->execute();
     
     } 
 
 
     private function existeEmail($email){
-        $sql = " SELECT * FROM contatos WHERE email = :email";
+        $sql = " SELECT * FROM usuarios WHERE email = :email";
         $sql = $this->pdo->prepare($sql);
         $sql->bindValue(':email', $email);
         $sql->execute();

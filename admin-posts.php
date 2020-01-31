@@ -74,6 +74,7 @@
                 <thead>
                     <tr>
                         <th>ID</th>
+                        <th>Imagem</th>
                         <th>Titulo</th>
                         <th>Data</th>
                         <th colspan="2">Ações</th>
@@ -85,6 +86,9 @@
                     <!-- Row Info Table -->
                     <tr>
                         <td>1</td>
+                        <td class="td-img">
+                            <img src="./assets/img/go-logo.png" alt="">
+                        </td>
                         <td>React</td>
                         <td>09/12/2019</td>
                         <td>
@@ -95,12 +99,15 @@
                         </td>
                     </tr>
                     <!-- end Row Info Table -->
-
+                    
                     <!-- Row Info Table -->
                     <tr>
                         <td>2</td>
-                        <td>Angular</td>
-                        <td>10/12/2019</td>
+                        <td class="td-img">
+                            <img src="./assets/img/node-logo.png" alt="">
+                        </td>
+                        <td>React</td>
+                        <td>09/12/2019</td>
                         <td>
                             <a href="#" class="btn-update">Editar</a>
                         </td>
@@ -109,12 +116,15 @@
                         </td>
                     </tr>
                     <!-- end Row Info Table -->
-
+                    
                     <!-- Row Info Table -->
                     <tr>
                         <td>3</td>
-                        <td>Vue.js</td>
-                        <td>11/12/2019</td>
+                        <td class="td-img">
+                            <img src="./assets/img/vuejs-logo.png" alt="">
+                        </td>
+                        <td>React</td>
+                        <td>09/12/2019</td>
                         <td>
                             <a href="#" class="btn-update">Editar</a>
                         </td>
@@ -123,6 +133,8 @@
                         </td>
                     </tr>
                     <!-- end Row Info Table -->
+                    
+
 
                 </tbody>
 
